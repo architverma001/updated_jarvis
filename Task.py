@@ -41,12 +41,11 @@ def NonInputExecution(query):
     query = query.lower()
     if 'time' in query:
         Time()
-<<<<<<< HEAD
+
     elif query.strip().lower() == "threat":
         import subprocess
         subprocess.run(["python", "test.py"])
-=======
->>>>>>> 6c20e44a83aa444d2d85eddd30b618b938b899e8
+
     elif 'date' in query:
         Date()
     elif 'day' in query:

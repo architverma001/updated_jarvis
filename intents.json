@@ -89,7 +89,6 @@
                 "Hi there, how can I assist you today, sir?"
             ]
         },
-<<<<<<< HEAD
 
 
 
@@ -162,8 +161,7 @@
             ]
         },
         
-=======
->>>>>>> 6c20e44a83aa444d2d85eddd30b618b938b899e8
+
         {
             "tag":"bye",
             "patterns":[

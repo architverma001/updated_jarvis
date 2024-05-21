@@ -130,11 +130,8 @@ def Main():
                     InputExecution(reply, sentence)
                 elif "screenshot" in reply:
                     InputExecution(reply, sentence)
-<<<<<<< HEAD
                 elif "threat" in reply:
                     NonInputExecution(reply)
-=======
->>>>>>> 6c20e44a83aa444d2d85eddd30b618b938b899e8
 
                 else:
                     Say(reply)
@@ -142,8 +139,7 @@ def Main():
         Say("Sorry, I didn't get that. Please say it again.")
     else:
         print(f"{Name}: This is what i found on web")
-        Say("This is what i found on web")
-        InputExecution("google", results)
+        Say("Sorry, I didn't get that. Please say it again.")
 
 while checktrue:
     Main()
